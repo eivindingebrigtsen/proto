@@ -1,0 +1,54 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "proto": "src/cli.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack/webpack.config.js",
+    "test": "ava",
+    "start": "node src/index.js",
+    "build": "webpack --config webpack/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Eivind Ingebrigtsen",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "ava": "^0.18.2",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-es2015": "^6.22.0",
+    "caporal": "^0.3.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^0.10.1",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "node-sass": "^4.5.0",
+    "riotjs-loader": "^4.0.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "sw-precache-webpack-plugin": "^0.9.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "riot": "^3.3.1",
+    "riot-route": "^3.1.0",
+    "superagent": "^3.5.0"
+  }
+}
