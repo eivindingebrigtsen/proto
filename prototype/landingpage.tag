@@ -29,9 +29,3 @@
 		</div>
 	</div>	
 </tusen-takk>
-<story>
-	<h1>Hello world</h1>
-	<script>
-		console.log('YAY')
-	</script>
-</story>

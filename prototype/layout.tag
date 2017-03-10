@@ -1,7 +1,7 @@
 <layout>
 	<!-- Add Header -->
 	<!-- Add Navigation -->
-	<navs options={pages} aligncenter="true" tabs="true"></navs>
+	<navs options={pages} alignright="true" ></navs>
 	<!-- This is where the tag is mounted -->
 	<div id="body-content">
 		<div class="container">
