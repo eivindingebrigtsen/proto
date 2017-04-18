@@ -1,7 +1,6 @@
 <app>
-	<layout>
-			
-	</layout>
+	<layout></layout>
+	
 	<script>	
 		const riot = require('riot');
 		const request = require('superagent');
